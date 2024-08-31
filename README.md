@@ -4,6 +4,35 @@
 
 Atualizado em: 31 de agosto de 2024
 
+## Tópicos das Aulas
+
+### Aula 1
+- Antes de começar
+- Ademir Quem?
+- Uma Introdução minimalista sobre grafos
+  - Definição
+  - Tipos de grafos
+  - Propriedades básicas (essenciais)
+- Aplicações de grafos (abstração)
+  - O que dá para fazer com grafos?
+  - Construindo um grafo de artistas do Spotify
+
+### Aula 2
+- Extrair, Modelar, Analisar
+- Principais Algoritmos
+  - Degree
+  - Modularity
+  - PageRank
+  - Centrality
+  - Clustering Coefficient
+- Comunidades em grafos (graph clustering)
+- Live Demo (Gephi + Orange)
+
+### Aula 3
+- Bibliotecas para grafos em Python
+- Live demo II
+- Navegando pelos códigos
+
 # Projeto de Análise de Redes Complexas
 
 Este repositório contém diversos scripts e arquivos relacionados à análise de redes complexas, incluindo métodos para detecção de comunidades, clustering, e visualização de grafos.
