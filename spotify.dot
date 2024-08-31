@@ -1,0 +1,51 @@
+graph MusicGraph {
+
+    // Nodes
+    "Metallica";
+    "Iron Maiden";
+    "Black Sabbath";
+    "Slayer";
+    "Judas Priest";
+    "Mastodon";
+    "Gojira";
+    "Lady Gaga";
+    "Pink Floyd";
+    "Led Zeppelin";
+
+    // Edges
+    "Metallica" -- "Iron Maiden" [label="Metallica - Iron Maiden", weight=2.0];
+    "Metallica" -- "Black Sabbath" [label="Metallica - Black Sabbath", weight=2.0];
+    "Metallica" -- "Slayer" [label="Metallica - Slayer", weight=1.0];
+    "Metallica" -- "Judas Priest" [label="Metallica - Judas Priest", weight=1.0];
+    "Metallica" -- "Pink Floyd" [label="Metallica - Pink Floyd", weight=1.0];
+    "Metallica" -- "Led Zeppelin" [label="Metallica - Led Zeppelin", weight=1.0];
+
+    "Iron Maiden" -- "Black Sabbath" [label="Iron Maiden - Black Sabbath", weight=3.0];
+    "Iron Maiden" -- "Slayer" [label="Iron Maiden - Slayer", weight=2.0];
+    "Iron Maiden" -- "Judas Priest" [label="Iron Maiden - Judas Priest", weight=1.0];
+    "Iron Maiden" -- "Gojira" [label="Iron Maiden - Gojira", weight=1.0];
+    "Iron Maiden" -- "Lady Gaga" [label="Iron Maiden - Lady Gaga", weight=1.0];
+    "Iron Maiden" -- "Pink Floyd" [label="Iron Maiden - Pink Floyd", weight=1.0];
+    "Iron Maiden" -- "Led Zeppelin" [label="Iron Maiden - Led Zeppelin", weight=1.0];
+
+    "Black Sabbath" -- "Slayer" [label="Black Sabbath - Slayer", weight=2.0];
+    "Black Sabbath" -- "Judas Priest" [label="Black Sabbath - Judas Priest", weight=1.0];
+    "Black Sabbath" -- "Gojira" [label="Black Sabbath - Gojira", weight=1.0];
+    "Black Sabbath" -- "Lady Gaga" [label="Black Sabbath - Lady Gaga", weight=1.0];
+    "Black Sabbath" -- "Pink Floyd" [label="Black Sabbath - Pink Floyd", weight=1.0];
+    "Black Sabbath" -- "Led Zeppelin" [label="Black Sabbath - Led Zeppelin", weight=1.0];
+
+    "Slayer" -- "Judas Priest" [label="Slayer - Judas Priest", weight=1.0];
+    "Slayer" -- "Gojira" [label="Slayer - Gojira", weight=1.0];
+    "Slayer" -- "Lady Gaga" [label="Slayer - Lady Gaga", weight=1.0];
+
+    "Mastodon" -- "Iron Maiden" [label="Mastodon - Iron Maiden", weight=1.0];
+    "Mastodon" -- "Black Sabbath" [label="Mastodon - Black Sabbath", weight=1.0];
+    "Mastodon" -- "Slayer" [label="Mastodon - Slayer", weight=1.0];
+    "Mastodon" -- "Gojira" [label="Mastodon - Gojira", weight=1.0];
+    "Mastodon" -- "Lady Gaga" [label="Mastodon - Lady Gaga", weight=1.0];
+
+    "Gojira" -- "Lady Gaga" [label="Gojira - Lady Gaga", weight=1.0];
+
+    "Pink Floyd" -- "Led Zeppelin" [label="Pink Floyd - Led Zeppelin", weight=1.0];
+}
