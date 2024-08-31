@@ -1,0 +1,13 @@
+README.md
+Source.gv
+Source.gv.pdf
+__pycache__
+arquivos.txt
+datasets_comuns
+girvan-newman
+graph_tool.py
+k-means
+pygraphviz.py
+requerimentos.txt
+spotify.dot
+venv
